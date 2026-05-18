@@ -19,6 +19,12 @@ public class CalculatorTest {
             System.out.println("Multiplying Test Failed.");
         }
 
+        if(cal.substract(4,2) == 2){
+            System.out.println("Dividing Test Passed.");
+        }else{
+            System.out.println("Dividing Test Failed.");
+        }
+
 
     }
 
