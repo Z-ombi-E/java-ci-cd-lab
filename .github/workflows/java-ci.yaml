@@ -24,3 +24,6 @@ jobs:
 
      - name: Run Java Program
        run: java Main
+
+     - name: Run Test
+       run: java CalculatorTest
